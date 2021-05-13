@@ -25,6 +25,12 @@
                     <p><a href="{{ .Site.Params.contact.vcard }}">vCard</a></p>
                 </div>
             {{ end }}
+            {{ if .Site.Params.contact.freelancermap }}
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <i class="fas fa-briefcase fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p><a href="{{ .Site.Params.contact.freelancermap }}" target="_blank">Freelancermap</a></p>
+                </div>
+            {{ end }}
             {{ if .Site.Params.contact.xing }}
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <i class="fab fa-xing fa-3x wow bounceIn"></i>
