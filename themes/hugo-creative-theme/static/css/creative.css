@@ -512,3 +512,6 @@ body {
     letter-spacing: 3px;
     text-transform: uppercase;
 }
+.emphasize {
+  color: #f05f40;
+}

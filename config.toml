@@ -53,12 +53,12 @@ unsafe= true
 	[params.about]
       headline    = "Who am I"
         #description = '''IT is not only my profession but my passion <br> I am a team player <br> I love to develop solutions <br> I have a broad understanding of IT <br> I don't hesitate to learn and improve <br> Experienced remote worker'''
-        description = """Passionate <span style="color: #f05f40">automation professional</span> with an emphasis on <span style="color: #f05f40">cloud computing</span> and <span style="color: #f05f40">DevOps</span>. My primary goal is to
-<span style="color: #f05f40">enable</span> your business and your developer teams to deliver value. <br>I am familiar with a broad range of IT topics
+        description = """Passionate <span class="emphasize">automation professional</span> with an emphasis on <span class="emphasize">cloud computing</span> and <span class="emphasize">DevOps</span>. My primary goal is to
+<span class="emphasize">enable</span> your business and your developer teams to deliver value. <br>I am familiar with a broad range of IT topics
 which allows me to understand and solve problems. <br>Modern IT is highly complex and consists of many layers of
-abstraction. My claim is to create <span style="color: #f05f40">simple over complex solutions</span>. No fanciness but easy to understand, use, and
-maintain. For me less complexity results in less bugs and more <span style="color: #f05f40">reliability</span>. <br>I am happy to learn new things and also
-share them with others because I believe <span style="color: #f05f40">learning and sharing</span> is the key to success in modern IT."""
+abstraction. My claim is to create <span class="emphasize">simple over complex solutions</span>. No fanciness but easy to understand, use, and
+maintain. For me less complexity results in less bugs and more <span class="emphasize">reliability</span>. <br>I am happy to learn new things and also
+share them with others because I believe <span class="emphasize">learning and sharing</span> is the key to success in modern IT."""
         buttonText  = "How can I support you?"
 
 
@@ -105,27 +105,27 @@ share them with others because I believe <span style="color: #f05f40">learning a
         headline    = "Skills"
         description ="""
 <p>
-  <span style="color: #f05f40">Working with</span><br>
+  <span class="emphasize">Working with</span><br>
   Cross functional product teams | infrastructure and platform teams | Kanban | Confluence | Jira<br>
-  <span style="color: #f05f40">IT</span><br>
+  <span class="emphasize">IT</span><br>
   Networks | advanced Linux knowledge | system architecture | Microservice architecture | cloud native architecture<br>
-  <span style="color: #f05f40">Cloud</span><br>
+  <span class="emphasize">Cloud</span><br>
   Terraform | Amazon Web Services | Ansible | Vagrant | Packer<br>
-  <span style="color: #f05f40">Kubernetes</span><br>
+  <span class="emphasize">Kubernetes</span><br>
   Kustomize | Flux | ArgoCD | Kubecost | EKS | KinD | Helm | Kubeval<br>
-  <span style="color: #f05f40">DevOps</span><br>
+  <span class="emphasize">DevOps</span><br>
   Java (Spring Boot and Quarkus) | JavaScript(Reactjs, Nextjs, Nodejs) | Python | Elasticsearch<br>
-  <span style="color: #f05f40">CI/CD</span><br>
+  <span class="emphasize">CI/CD</span><br>
   Gitlab CI/CD | Github Actions | Jenkins | Docker(-swarm)<br>
-  <span style="color: #f05f40">Operations</span><br>
+  <span class="emphasize">Operations</span><br>
   Prometheus | Grafana | Apache2 | Nginx | MariaDB | Postgresql | TomEE | JBoss<br>
-  <span style="color: #f05f40">Programming</span><br>
+  <span class="emphasize">Programming</span><br>
   Python | Bash | Go | K6 Load Testing | Selenium | Vim | Intellij<br>
-  <span style="color: #f05f40">IT-Security</span><br>
+  <span class="emphasize">IT-Security</span><br>
   Security awareness | Nmap | Burp Suite | Gobuster | Sqlmap | Metasploit<br>
-  <span style="color: #f05f40">Other</span><br>
+  <span class="emphasize">Other</span><br>
   Git | NextCloud | MS Office | LATEX<br>
-  <span style="color: #f05f40">Languages</span><br>
+  <span class="emphasize">Languages</span><br>
   German (first language) | English<br>
 </p>
 """
