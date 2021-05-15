@@ -26,7 +26,7 @@ unsafe= true
 	description = "Freelancer/IT Consultant in the field of software engineering and IT operations. Topics include cloud environments, containerization, continuous deployments, and build pipelines. Technolgies include AWS, Terraform, Docker, Kubernetes, Jenkins, Ansible, Python, Java, Bash, Debian, CentOS, Git, Jira, Confluence, Grafana, Prometheus"
 
 	# The path must be relative to the static folder
-	favicon = "favicon.png"
+	favicon = "favicon.ico"
 
 
 	# Navigation
@@ -148,10 +148,10 @@ share them with others because I believe <span style="color: #f05f40">learning a
         text = "My Knowledge Base"
         link = "https://knowledge.rootknecht.net/about"
 
-    # cv
-      [params.cv]
+    # knowledgebase
+      [params.knowledgebase]
           headline = "More Details about me"
-        [params.cv.button]
+        [params.knowledgebase.button]
         text = "Curriculum Vitae"
         link = "https://knowledge.rootknecht.net/about"
 
