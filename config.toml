@@ -145,8 +145,8 @@ share them with others because I believe <span class="emphasize">learning and sh
 	  [params.aside]
 	  	  headline = "Warning! Technical stuff incoming"
 		[params.aside.button]
-        text = "My Knowledge Base"
-        link = "https://knowledge.rootknecht.net/about"
+        text = "My Knowledge Base and Blog"
+        link = "https://rootknecht.net/"
 
     # knowledgebase
       [params.knowledgebase]
