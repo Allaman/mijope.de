@@ -1,4 +1,4 @@
-easeurl = "https://mijope.de"
+baseurl = "https://mijope.de"
 languageCode = "en-us"
 title = "Michael Johann Peter - IT Consulting"
 theme = "hugo-creative-theme"
