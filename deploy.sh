@@ -10,7 +10,6 @@ function copy {
 }
 
 
-hugo
 hugo --minify
 case $1 in
     dev )
