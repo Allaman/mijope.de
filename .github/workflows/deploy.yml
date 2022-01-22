@@ -34,4 +34,4 @@ jobs:
           chmod -R 700 ~/.ssh
       - name: Rsync deployment
         run: |
-          rsync -avhr --delete -e ssh public/ hugo@rootknecht.net:/var/www/mijope.de
+          rsync -avhr --delete -e ssh public/ hugo@rootknecht.net:/var/www/mijope
