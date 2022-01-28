@@ -343,3 +343,17 @@
   color: #fff;
   font-size: 1.5rem;
 }
+
+@media (max-width: 500px) {
+  .card-container .card {
+    width: calc(100% - 70.5px) !important;
+  }
+  .card-container .card div.card-img-top {
+    max-width: 100% !important;
+  }
+}
+
+@media (max-width: 300px) {
+  .card-container .card {
+    width: calc(100% - 30.5px) !important;
+}

@@ -33,7 +33,33 @@ body {
 }
 
 .modal-body p {
-    text-align: justify; !important
+    text-align: justify;
+}
+
+@media (max-width: 500px) {
+    .project-header {
+        font-size: 2em;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .modal-body p {
+        text-align: unset;
+        font-size: 2rem;
+    }
+    .portfolio-modal .close-modal .lr {
+        height: 35px !important;
+    }
+    .portfolio-modal .close-modal .lr .rl{
+        height: 35px !important;
+    }
+
+    .portfolio-modal .modal-body button{
+        border: 1px solid #000;
+    }
+
+    .portfolio-modal .modal-body button i{
+        margin-right: 5px;
+    }
 }
 
 .portfolio-modal .modal-content img {
