@@ -1,4 +1,4 @@
-baseurl = "https://mijope.de"
+baseURL = "https://mijope.de"
 languageCode = "en-us"
 title = "Michael Johann Peter - IT Consulting"
 theme = "hugo-creative-theme"
