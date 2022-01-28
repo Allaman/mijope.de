@@ -4,4 +4,6 @@
 {{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
 {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
 {{ .Hugo.Generator }}
+{{$card := resources.Get "css/card.css"}}
+<link rel="stylesheet" href="{{$card.Permalink}}">
 <title>{{ .Site.Title }}</title>
