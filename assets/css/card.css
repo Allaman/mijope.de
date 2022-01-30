@@ -274,7 +274,7 @@
   font-weight: 700 !important;
 }
 .card-portfolio {
-  background-color: #000 !important;
+  background-color: #1f222a !important;
 }
 .card-container {
   margin: 5rem auto;
@@ -345,7 +345,7 @@
     background-position: bottom left;
     background-size: 0% 1px;
     color: #fff;
-    transition: background-size 200ms ease-in-out; 
+    transition: background-size 200ms ease-in-out;
     font-size: 2rem;
 }
 
@@ -368,7 +368,7 @@
     max-width: 100% !important;
   }
   .card-container .card-body.mnh{
-    min-height: unset;  
+    min-height: unset;
   }
 }
 
