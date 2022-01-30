@@ -24,8 +24,9 @@
             {{ partial "skills.html" . }}
         {{ end }}
 
+        
         {{ if .Site.Data.projects }}
-            {{ partial "portfolio.html" . }}
+            {{ partial "portfolio-cards.html" . }}
             {{ partial "modals.html" . }}
         {{ end }}
 

@@ -1,0 +1,39 @@
+<section id="portfolio">
+{{ with .Site.Params.portfolio.modal.headline }}
+<div class="container">
+<div class="row">
+    <div class="col-lg-12 text-center">
+        <h2 class="section-heading pt-3">{{ . }}</h2>
+        <hr class="primary">
+    </div>
+</div>
+</div>
+{{ end }}
+
+<div class="card-portfolio py-2 d-flex">
+    <div class="card-container d-flex flex-wrap">
+        {{ range .Site.Data.projects }}
+        <a href="#portfolioModal{{ .modalID }}" class="card portfolio-box portfolio-link" data-toggle="modal">
+          <div style="background-image: linear-gradient(rgb(240 95 64 / 11%),#000000), url('/img/portfolio/{{.img}}')" class="card-img-top"  alt="Card image cap"></div>
+          {{ if and .category .title }}
+          {{ if .category }}
+          <div class="card-body mnh">
+            <div>
+              {{ if .title }}
+              <h5 class="card-title">{{.title}}</h5>
+              {{end}}
+            </div>           
+            {{ if .category }}
+            <p class="card-text">{{.category}}</p>
+            {{end}}
+          </div>
+          <div class="card-body is-flex">
+          </div>
+          {{end}}
+          {{end}}
+        </a>
+        {{end}}
+    </div>
+  </div>
+</div>  
+</section>
